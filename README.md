@@ -1,7 +1,7 @@
 # KV Capital — AI Real Estate Underwriting Tool
 
-**Demo video:** <!-- INSERT LOOM LINK BEFORE SUBMITTING -->  
-**Sam call:** Called from [INSERT PHONE NUMBER] <!-- or: "Did not call Sam" -->  
+**Demo video:** https://youtu.be/BvvtrFfCTIU  
+**Sam call:** +1 587 816 8042  
 **Submitted:** June 12, 2026
 
 ---
