@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* ── Custom variant: applies when any ancestor has class="light" ── */
+@custom-variant light (&:where(.light, .light *));
+
+/* ── KV Capital brand tokens ── */
+:root {
+  --kv-black:      #29262B;
+  --kv-card:       #3c3840;
+  --kv-mid:        #4B484E;
+  --kv-border:     #5a5660;
+  --kv-muted:      #767278;
+  --kv-grey:       #E0DFE2;
+  --kv-beige:      #E8E9E4;
+  --kv-blue:       #006D94;
+  --kv-blue-hover: #0080ae;
+  --kv-green:      #C4D82E;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@theme inline {
+  --color-kv-black:      var(--kv-black);
+  --color-kv-card:       var(--kv-card);
+  --color-kv-mid:        var(--kv-mid);
+  --color-kv-border:     var(--kv-border);
+  --color-kv-muted:      var(--kv-muted);
+  --color-kv-grey:       var(--kv-grey);
+  --color-kv-beige:      var(--kv-beige);
+  --color-kv-blue:       var(--kv-blue);
+  --color-kv-blue-hover: var(--kv-blue-hover);
+  --color-kv-green:      var(--kv-green);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ── Chart accent: lime on dark, kv-blue on light (lime is invisible on white) ── */
+:root {
+  --chart-accent: #C4D82E;
+  --logo-filter: brightness(0) invert(1);
+}
+.light {
+  --chart-accent: #006D94;
+  --logo-filter: none;
+}
+
+/* ── Leaflet attribution: shrink it, don't hide it ── */
+.leaflet-control-attribution {
+  font-size: 8px !important;
+  opacity: 0.4 !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
