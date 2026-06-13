@@ -10,31 +10,31 @@
 
 **Subject property form + live map** — property dataset plotted by zone, search radius ring updates as the agent runs
 
-![Interface](frontend/public/screenshots/interface.jpg)
+![Interface](Screenshots/Interface.JPG)
 
 **Agent trace + cost panel** — every tool call visible in real time, with token usage and prompt cache savings
 
-![Agent Trace](frontend/public/screenshots/agent-trace.jpg)
+![Agent Trace](Screenshots/agent-trace.jpg)
 
 **Estimated value + flags** — value range, confidence level, and a full flag list explaining every decision
 
-![Values and Summary](frontend/public/screenshots/values-summary.jpg)
+![Values and Summary](Screenshots/values-summary.jpg)
 
 **Price distribution chart + comparable sales table** — dumbbell chart shows raw vs adjusted price per comp; outliers highlighted in red; expandable rows show line-item adjustment math
 
-![Pricing Chart](frontend/public/screenshots/pricing-chart.jpg)
+![Pricing Chart](Screenshots/pricing-chart.jpg)
 
 **PDF export** — downloadable valuation report with logo, subject details, flags, narrative, comp table, and adjustment rates
 
-![PDF](frontend/public/screenshots/pdf.jpg)
+![PDF](Screenshots/pdf.JPG)
 
 **Settings drawer** — all adjustment rates configurable with sources cited; expansion logic documented
 
-![Settings](frontend/public/screenshots/settings.jpg)
+![Settings](Screenshots/settings.JPG)
 
 **Dark mode**
 
-![Dark Mode](frontend/public/screenshots/darkmode.jpg)
+![Dark Mode](Screenshots/darkmode.JPG)
 
 ---
 
